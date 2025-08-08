@@ -1,63 +1,56 @@
 .advantages {
     min-height: 473px;
     padding: 73px 0 65px 0;
-        &__title {
-            font-size: 30px;
-            font-weight: 700;
-            line-height: 30px;
-            letter-spacing: 0px;
-            text-align: center;
+    &__block {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        color: rgb(13, 13, 13);
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0px;
+        &__exp,&__health,&__run:nth-child(n+1){
+            width: 226px;
         }
-        &__block {
-            display: flex;
-            justify-content: space-around;
-            text-align: center;
+        &__exp__subtitle,&__health__subtitle,&__run__subtitle:nth-child(n+1){
             color: rgb(13, 13, 13);
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 29px;
+            letter-spacing: 0px;
+        }
+        &__run__text span{
             font-size: 14px;
             font-weight: 300;
             line-height: 18px;
             letter-spacing: 0px;
-            &__exp,&__health,&__run:nth-child(n+1){
-                width: 226px;
-            }
-            &__exp__subtitle,&__health__subtitle,&__run__subtitle:nth-child(n+1){
-                color: rgb(13, 13, 13);
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 29px;
-                letter-spacing: 0px;
-            }
-            &__run__text span{
-                font-size: 14px;
-                font-weight: 300;
-                line-height: 18px;
-                letter-spacing: 0px;
-            }
-                &__exp {
-                        &__img{
-                        }
-                        &__subtitle{ 
-                        }
-                        &__text{
-                        }
-                }
-                &__health {
-                        &__img{ 
-                        }
-                        &__subtitle{    
-                        }
-                        &__text{
-                        }
-                }
-                &__run{
-                        &__img{   
-                        }
-                        &__subtitle{
-                        }
-                        &__text{
-                        }
-                }
         }
+            &__exp {
+                    &__img{
+                    }
+                    &__subtitle{ 
+                    }
+                    &__text{
+                    }
+            }
+            &__health {
+                    &__img{ 
+                    }
+                    &__subtitle{    
+                    }
+                    &__text{
+                    }
+            }
+            &__run{
+                    &__img{   
+                    }
+                    &__subtitle{
+                    }
+                    &__text{
+                    }
+            }
+    }
 
     
 
